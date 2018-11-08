@@ -7,13 +7,13 @@ public class Predmet {
     private String naziv;
     private String sifra;
     private Integer ECTSBodovi;
-    private List<Student> studenti;
+    private boolean obaveznost;
 
-    public Predmet(String naziv, String sifra, Integer ECTSBodovi) {
+    public Predmet(String naziv, String sifra, Integer ECTSBodovi, boolean obaveznost) {
         this.naziv = naziv;
         this.sifra = sifra;
         this.ECTSBodovi = ECTSBodovi;
-        studenti = new ArrayList<>();
+        this.obaveznost = obaveznost;
     }
 
     public String getNaziv() {
@@ -40,13 +40,11 @@ public class Predmet {
         this.ECTSBodovi = ECTSBodovi;
     }
 
-    List<Student> dajStudente() {
-        return null;
+    public boolean isObavezan() {
+        return obaveznost;
     }
 
-    void upisiStudenta(Student student) {
-    }
-
-    void ispisiStudenta(Student student) {
+    public void setObaveznost(boolean obaveznost) {
+        this.obaveznost = obaveznost;
     }
 }
