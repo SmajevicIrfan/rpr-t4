@@ -1,9 +1,9 @@
 package ba.unsa.etf.rpr.tutoriaj04;
 
 public class Upis {
-    Student student;
-    Predmet predmet;
-    Studij studij;
+    private Student student;
+    private Predmet predmet;
+    private Studij studij;
 
     public Upis(Student student, Predmet predmet, Studij studij) {
         this.student = student;
