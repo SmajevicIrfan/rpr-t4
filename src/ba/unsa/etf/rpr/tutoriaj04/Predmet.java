@@ -47,4 +47,13 @@ public class Predmet {
     public void setObaveznost(boolean obaveznost) {
         this.obaveznost = obaveznost;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Predmet)) {
+            return false;
+        }
+
+        return ((Predmet) obj).sifra.equals(this.sifra);
+    }
 }
