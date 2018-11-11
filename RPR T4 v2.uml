@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ba.unsa.etf.rpr.tutoriaj04.Upis</OriginalElement>
+  <nodes>
+    <node x="0.0" y="433.0">ba.unsa.etf.rpr.tutoriaj04.Studij</node>
+    <node x="357.0" y="389.0">ba.unsa.etf.rpr.tutoriaj04.Student</node>
+    <node x="225.5" y="690.0">ba.unsa.etf.rpr.tutoriaj04.Upis</node>
+    <node x="111.6458333333334" y="0.0">ba.unsa.etf.rpr.tutoriaj04.Predmet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ba.unsa.etf.rpr.tutoriaj04.Upis" target="ba.unsa.etf.rpr.tutoriaj04.Predmet">
+      <point x="-19.25" y="-103.5" />
+      <point x="321.75" y="670.0" />
+      <point x="335.5" y="670.0" />
+      <point x="335.5" y="364.0" />
+      <point x="289.77083333333337" y="364.0" />
+      <point x="35.62499999999994" y="169.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.tutoriaj04.Studij" target="ba.unsa.etf.rpr.tutoriaj04.Predmet">
+      <point x="81.25" y="-81.5" />
+      <point x="243.75" y="364.0" />
+      <point x="218.5208333333334" y="364.0" />
+      <point x="-35.625" y="169.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.tutoriaj04.Upis" target="ba.unsa.etf.rpr.tutoriaj04.Studij">
+      <point x="-57.75" y="-103.5" />
+      <point x="283.25" y="660.0" />
+      <point x="243.75" y="660.0" />
+      <point x="81.25" y="81.5" />
+    </edge>
+    <edge source="ba.unsa.etf.rpr.tutoriaj04.Upis" target="ba.unsa.etf.rpr.tutoriaj04.Student">
+      <point x="57.75" y="-103.5" />
+      <point x="398.75" y="670.0" />
+      <point x="413.5" y="670.0" />
+      <point x="-56.5" y="125.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6095965103598692" x="291.5" y="448.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
