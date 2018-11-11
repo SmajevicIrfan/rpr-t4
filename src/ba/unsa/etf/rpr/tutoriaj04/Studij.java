@@ -38,4 +38,16 @@ public class Studij {
 
         throw new IllegalArgumentException("Nepostojeci predmet");
     }
+
+    public Set<Predmet> dajPredmeteNaSemestru(int semestar) {
+        if (semestar < 1 || semestar > semestri.size()) {
+            throw new IllegalArgumentException("Nepostojeci semestar");
+        }
+
+        return semestri.get(semestar);
+    }
+
+    public Map<Integer, Set<Predmet>> dajSvePredmete() {
+        return semestri;
+    }
 }
